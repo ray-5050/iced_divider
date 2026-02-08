@@ -10,4 +10,7 @@ target/
 *.pdb
 
 # RustRover
-#.idea/
+.idea/
+
+# VsCode
+.vscode/

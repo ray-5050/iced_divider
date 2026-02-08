@@ -1,0 +1,15 @@
+[package]
+name = "iced_divider"
+version = "0.4.0"
+edition = "2024"
+authors = ["Charles Ray <ray.iced.projects@gmail.com>"]
+description = "An Iced widget for allowing adjacent containers to be resized"
+
+[lib]
+name = "iced_divider"
+
+[dependencies]
+iced = {version = "0.14", features = ["advanced"]}
+
+[package.metadata.docs.rs]
+all-features = true
